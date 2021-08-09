@@ -79,9 +79,7 @@
 		<profile>
 			<id>sonar</id>
 			<properties>
-				<sonar.projectKey>ariseaz_space-management-system</sonar.projectKey>
-				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
-				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
+				<sonar.projectKey>Ariseaz_space-management-system</sonar.projectKey>
 				<sonar.organization>ariseaz</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
