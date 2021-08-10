@@ -82,6 +82,9 @@
 				<sonar.projectKey>Ariseaz_space-management-system</sonar.projectKey>
 				<sonar.organization>ariseaz</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+				<sonar.sources>.</sonar.sources>
+				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
+				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
 			</properties>
 			<activation>
 				<activeByDefault>false</activeByDefault>
@@ -109,8 +112,8 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>pranav3105</name>
-			<url>https://maven.pkg.github.com/Pranav3105/space-management-system</url>
+			<name>ariseaz</name>
+			<url>https://github.com/Ariseaz/space-management-system</url>
 		</repository>
 	</distributionManagement>
 </project>
