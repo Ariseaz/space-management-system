@@ -111,7 +111,7 @@
 
 	<distributionManagement>
 		<repository>
-			<id>ariseaz</id>
+			<id>github</id>
 			<name>Space Management Application</name>
 			<url>https://maven.pkg.github.com/ariseaz/space-management-system</url>
 		</repository>
