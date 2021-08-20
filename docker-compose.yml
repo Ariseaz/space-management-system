@@ -10,4 +10,4 @@ services:
   space-mgt:
     image: adenijiazeez/space-management-system:latest
     ports:
-      - 5000:5000
+      - 8081:8081
